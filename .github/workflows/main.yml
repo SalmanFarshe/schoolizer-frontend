@@ -1,0 +1,28 @@
+name: Publish schoolizer frontend to cPanel
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Deploy Theme via FTP to cPanel
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SCHOOLIZER_FRONTEND_SERVER }}
+          username: ${{ secrets.FTP_SCHOOLIZER_FRONTEND_USER }}
+          password: ${{ secrets.FTP_SCHOOLIZER_FRONTEND_PASS }}
+          local-dir: ./                                # Theme files are in repo root
+          server-dir: ./
+          exclude: |
+            **/.git*
+            **/.github*
+            **/node_modules/**
+          dangerous-clean-slate: false                 # Safe deploy, no deleting files
