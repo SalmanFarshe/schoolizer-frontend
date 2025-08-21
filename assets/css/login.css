@@ -1,0 +1,75 @@
+.login-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .login-card h2 {
+      color: var(--primary-color);
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .btn-login {
+      background-color: var(--accent-color);
+      color: var(--text-color);
+    }
+
+    .btn-login:hover {
+      background-color: #d9451a; /* Slightly darker orange */
+      color: var(--text-color);
+    }
+
+    .role-select {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: var(--primary-color);
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+
+
+    
+    .forgot-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .forgot-card h2 {
+      color: var(--primary-color);
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn-submit {
+      background-color: var(--accent-color);
+      color: var(--text-color);
+    }
+
+    .btn-submit:hover {
+      background-color: #d9451a; /* slightly darker */
+      color: var(--text-color);
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
