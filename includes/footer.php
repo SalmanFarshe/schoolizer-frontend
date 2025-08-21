@@ -54,7 +54,7 @@
         <h6 class="fw-bold text-primary mb-2">Subscribe</h6>
         <form class="d-flex">
           <input type="email" class="form-control form-control-sm me-2" placeholder="Email Address">
-          <button class="btn btn-danger btn-sm" type="submit">Subscribe</button>
+          <button class="btn button btn-sm" type="submit">Subscribe</button>
         </form>
       </div>
 

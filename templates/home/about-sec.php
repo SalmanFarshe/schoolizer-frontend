@@ -14,7 +14,7 @@
       </div>
 
       <!-- Right Column: Text -->
-      <div class="col-lg-6" data-aos="fade-left">
+      <div class="col-lg-6 text-start" data-aos="fade-left">
         <h2 class="display-5 fw-bold mb-3 text-primary">About Schoolizer</h2>
         <p class="lead text-secondary mb-4">
           Schoolizer is dedicated to providing modern, innovative education for students of all ages.
@@ -54,7 +54,7 @@
           </div>
         </div>
 
-        <a href="admission.php" class="btn btn-danger mt-4 shadow-sm bt" data-aos="fade" data-aos-delay="500">Join Us Now</a>
+        <a href="admission.php" class="btn button mt-4 shadow-sm bt" data-aos="fade" data-aos-delay="500">Join Us Now</a>
       </div>
 
     </div>

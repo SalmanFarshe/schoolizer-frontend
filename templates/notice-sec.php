@@ -1,5 +1,5 @@
 <!-- Notices Section -->
-<section class="notices-section py-5 section">
+<section class="notices-section padding py-5">
   <div class="container">
     <h2 class="display-5 fw-bold mb-4 text-primary" data-aos="fade-up">Latest Notices</h2>
 
@@ -47,11 +47,91 @@
           <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
         </div>
       </div>
+      <!-- Notice 4 -->
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex justify-content-between align-items-start p-3 border rounded shadow-sm">
+          <div>
+            <h6 class="mb-1 fw-bold">Library Update</h6>
+            <p class="mb-0 small text-muted">Published on 12 Aug 2025</p>
+          </div>
+          <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
+        </div>
+      </div>
+      <!-- Notice 4 -->
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex justify-content-between align-items-start p-3 border rounded shadow-sm">
+          <div>
+            <h6 class="mb-1 fw-bold">Library Update</h6>
+            <p class="mb-0 small text-muted">Published on 12 Aug 2025</p>
+          </div>
+          <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
+        </div>
+      </div>
+      <!-- Notice 4 -->
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex justify-content-between align-items-start p-3 border rounded shadow-sm">
+          <div>
+            <h6 class="mb-1 fw-bold">Library Update</h6>
+            <p class="mb-0 small text-muted">Published on 12 Aug 2025</p>
+          </div>
+          <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
+        </div>
+      </div>
+      <!-- Notice 4 -->
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex justify-content-between align-items-start p-3 border rounded shadow-sm">
+          <div>
+            <h6 class="mb-1 fw-bold">Library Update</h6>
+            <p class="mb-0 small text-muted">Published on 12 Aug 2025</p>
+          </div>
+          <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
+        </div>
+      </div>
+      <!-- Notice 4 -->
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex justify-content-between align-items-start p-3 border rounded shadow-sm">
+          <div>
+            <h6 class="mb-1 fw-bold">Library Update</h6>
+            <p class="mb-0 small text-muted">Published on 12 Aug 2025</p>
+          </div>
+          <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
+        </div>
+      </div>
+      <!-- Notice 4 -->
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex justify-content-between align-items-start p-3 border rounded shadow-sm">
+          <div>
+            <h6 class="mb-1 fw-bold">Library Update</h6>
+            <p class="mb-0 small text-muted">Published on 12 Aug 2025</p>
+          </div>
+          <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
+        </div>
+      </div>
+      <!-- Notice 4 -->
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex justify-content-between align-items-start p-3 border rounded shadow-sm">
+          <div>
+            <h6 class="mb-1 fw-bold">Library Update</h6>
+            <p class="mb-0 small text-muted">Published on 12 Aug 2025</p>
+          </div>
+          <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
+        </div>
+      </div>
+      <!-- Notice 4 -->
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex justify-content-between align-items-start p-3 border rounded shadow-sm">
+          <div>
+            <h6 class="mb-1 fw-bold">Library Update</h6>
+            <p class="mb-0 small text-muted">Published on 12 Aug 2025</p>
+          </div>
+          <a href="notices.php" class="btn btn-sm btn-outline-primary">View</a>
+        </div>
+      </div>
     </div>
 
     <!-- View All Button -->
     <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="500">
-      <a href="notices.php" class="btn button btn-lg">View All Notices</a>
+      <a href="notices.php" class="btn button">View All Notices</a>
     </div>
   </div>
 </section>

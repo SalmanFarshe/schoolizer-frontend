@@ -1,12 +1,12 @@
 <!-- Contact Section -->
-<section class="contact-section padding py-5 bg-light">
+<section class="contact-section py-5 bg-light">
   <div class="container">
     <h2 class="display-5 fw-bold mb-4 text-primary" data-aos="fade-up">Get in Touch</h2>
 
     <div class="row g-4">
       <!-- Contact Form -->
       <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <form class="bg-white p-3'">
+        <form class="bg-white p-3">
           <div class="mb-3">
             <label for="name" class="form-label fw-bold">Your Name</label>
             <input type="text" class="form-control" id="name" placeholder="Enter your name">
@@ -29,18 +29,31 @@
 
       <!-- Contact Info + Map -->
       <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="mb-4">
-          <h5 class="fw-bold">Address</h5>
-          <p>123 Main Street, Dhaka, Bangladesh</p>
+        <!-- Contact Info + Map -->
+          <div class="mb-4 d-flex align-items-start">
+            <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+            <div>
+              <h5 class="fw-bold">Address</h5>
+              <p class="mb-0">123 Main Street, Dhaka, Bangladesh</p>
+            </div>
+          </div>
+
+          <div class="mb-4 d-flex align-items-start">
+            <i class="bi bi-envelope-fill text-primary fs-4 me-3"></i>
+            <div>
+              <h5 class="fw-bold">Email</h5>
+              <p class="mb-0">info@schoolizer.com</p>
+            </div>
+          </div>
+
+          <div class="mb-4 d-flex align-items-start">
+            <i class="bi bi-telephone-fill text-primary fs-4 me-3"></i>
+            <div>
+              <h5 class="fw-bold">Phone</h5>
+              <p class="mb-0">+880 1234 567890</p>
+            </div>
         </div>
-        <div class="mb-4">
-          <h5 class="fw-bold">Email</h5>
-          <p>info@schoolizer.com</p>
-        </div>
-        <div class="mb-4">
-          <h5 class="fw-bold">Phone</h5>
-          <p>+880 1234 567890</p>
-        </div>
+
 
         <!-- Google Map Embed -->
         <div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">

@@ -7,6 +7,9 @@
 <!-- About Section -->
 <?php include("templates/home/about-sec.php"); ?>
 
+<!-- About Section -->
+<?php include("templates/home/academic.php"); ?>
+
 
 <!-- Notices -->
 <?php include("templates/notice-sec.php"); ?>
@@ -15,12 +18,16 @@
 <?php include("templates/event-sec.php"); ?>
 
 <!-- Gallery -->
-<?php include("templates/gallery-sec.php"); ?>
-
-<!-- Testimonials -->
-<?php # include("templates/home/testimonial-sec.php"); ?>
+<?php #include("templates/gallery-sec.php"); ?>
 
 <!-- Contact Info -->
 <?php include("templates/contact-sec.php"); ?>
+
+<!-- Testimonials -->
+<?php  include("templates/home/testimonial-sec.php"); ?>
+
+<!-- ====== Call to Action Section ====== -->
+<?php  include("templates/home/cta.php"); ?>
+
 
 <?php include("includes/footer.php"); ?>

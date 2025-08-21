@@ -22,3 +22,29 @@ $(document).ready(function () {
     $(".next").click();
   }, 5000);
 });
+
+// Initialize Lightbox
+  const lightbox = GLightbox({
+    selector: '.glightbox',
+    openEffect: 'fade',
+    closeEffect: 'fade'
+  });
+
+  // Simple Filter
+  const filterButtons = document.querySelectorAll('.gallery-section button[data-filter]');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.getAttribute('data-filter');
+      galleryItems.forEach(item => {
+        if (filter === 'all' || item.classList.contains(filter)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
