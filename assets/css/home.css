@@ -1,0 +1,117 @@
+.hero-section {
+  min-height: 90vh;
+}
+
+.carousel-item {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.carousel-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* dark overlay for text readability */
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+  right: 5%;
+  max-width: 600px;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  color: #fff;
+}
+
+/* about sec */
+.about-section {
+  background-color: var(--light-bg);
+  padding: 80px 0;
+}
+
+.about-section .about-image {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.about-section .about-image img {
+  transition: transform 0.5s ease;
+}
+
+.about-section .about-image:hover img {
+  transform: scale(1.05);
+}
+
+.play-circle {
+  width: 60px;
+  height: 60px;
+  background: rgba(12, 57, 88, 0.7); /* dark navy overlay */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.play-circle:hover {
+  transform: scale(1.2);
+  background: var(--primary-color);
+}
+
+.about-section h2 {
+  color: var(--primary-color);
+}
+
+.about-section p,
+.about-section .lead {
+  color: #495057; /* slightly darker gray for readability */
+}
+
+.about-section .btn {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.bi {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+/* Make carousel control buttons smaller, colored, and visible */
+#testimonialCarousel .carousel-control-prev,
+#testimonialCarousel .carousel-control-next {
+  width: 40px;                 /* smaller width */
+  height: 40px;                /* smaller height */
+  background-color: var(--accent-color); /* Accent color */
+  border-radius: 50%;          /* circular shape */
+  top: 50%;                    /* vertically centered */
+  transform: translateY(-50%);
+  opacity: 1;                  /* fully visible */
+  transition: background-color 0.3s;
+}
+
+#testimonialCarousel .carousel-control-prev:hover,
+#testimonialCarousel .carousel-control-next:hover {
+  background-color: darkorange; /* hover color */
+}
+
+#testimonialCarousel .carousel-control-prev-icon,
+#testimonialCarousel .carousel-control-next-icon {
+  filter: invert(1);           /* white arrow */
+}

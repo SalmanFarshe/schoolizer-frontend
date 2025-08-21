@@ -1,6 +1,63 @@
+@import url(home.css);
 :root {
-    --primary-color: #175B8C;   /* Primary Blue */
-    --accent-color: #F24515;    /* Accent Red */
-    --text-color: #FFFFFF;      /* White text */
-    --light-bg: #f8f9fa;        /* Light background for sections */
+    --primary-color: #0C3958;   /* Dark Navy Blue from logo */
+    --accent-color: #E95420;    /* Bright Orange from logo */
+    --text-color: #FFFFFF;      /* White */
+    --light-bg: #f8f9fa;        /* Light gray background */
+}
+
+/* menu */
+/* Navbar default */
+.navbar {
+  position: sticky; /* or fixed if you want it always on top */
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: top 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Shadow effect on scroll */
+.navbar.scrolled {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: var(--primary-color); /* optional if you want color change */
+}
+.navbar {
+  transform: translateY(-10px);
+  opacity: 0;
+  animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* footer */
+.footer-section{
+    background-color: var(--primary-color) !important;
+}
+
+.button{
+    background-color: var(--accent-color); 
+    color: var(--text-color);
+}
+.padding{
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+}
+.footer-section{
+    padding-top: 100px !important;
+    padding-bottom: 30px !important;
+}
+.section {
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+  height: 90vh !important;       /* 90% of viewport height */
+  display: flex;                 /* enable flexbox */
+  justify-content: center;       /* horizontal centering */
+  align-items: center;           /* vertical centering */
+  text-align: center;            /* center text inside */
+  overflow: hidden;           /* hide overflow */
 }
