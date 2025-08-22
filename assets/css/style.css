@@ -1,10 +1,19 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @import url(home.css);
 @import url(login.css);
+@import url(dashboard.css);
+@import url(sidebar.css);
 :root {
     --primary-color: #0C3958;   /* Dark Navy Blue from logo */
     --accent-color: #E95420;    /* Bright Orange from logo */
     --text-color: #FFFFFF;      /* White */
     --light-bg: #f8f9fa;        /* Light gray background */
+}
+/* Apply globally */
+* {
+  font-family: 'Poppins', Arial, sans-serif !important;
 }
 
 /* menu */

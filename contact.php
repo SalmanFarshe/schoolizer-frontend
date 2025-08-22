@@ -6,7 +6,7 @@
     <div class="text-center text-white" data-aos="fade-up">
       <h1 class="display-4 fw-bold">Contact Schoolizer</h1>
       <p class="lead mt-3">Empowering students with modern education and innovative learning.</p>
-      <a href="admission.php" class="btn button btn-lg mt-3">Apply Now</a>
+      <a href="admission.php" class="btn button mt-3">Apply Now</a>
     </div>
   </div>
 </section>

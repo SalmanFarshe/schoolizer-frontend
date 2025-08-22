@@ -28,7 +28,7 @@
   transform: translateY(-50%);
   left: 10%;
   right: 5%;
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 .carousel-caption h1,

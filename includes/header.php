@@ -35,7 +35,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-custom">
-  <div class="container">
+  <div class="container rounded" style="background-color: var(--primary-color);">
     <a class="navbar-brand fw-bold text-white" href="index.php">
       <img src="assets/images/schoolizer-logo.png" 
           alt="Schoolizer Logo" 

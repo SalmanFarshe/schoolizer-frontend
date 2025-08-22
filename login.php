@@ -1,11 +1,13 @@
 <?php include("includes/header.php"); ?>
 
-<section class="padding d-flex justify-content-center align-items-center" style="min-height: 80vh;">
-  <div class="login-card bg-white p-4 p-md-5 rounded shadow-sm" style="max-width: 500px; width: 100%;">
+<section class="padding d-flex justify-content-center overlay align-items-center" style="min-height: 80vh; background-image: url('./assets/images/about-hero.jpg'); background-size: cover; background-position: center; position: relative; min-height: 60vh;">
+  <div class="overlay" style="position: absolute; inset: 0; background: rgba(12, 57, 88, 0.7);"></div>
+
+  <div class="login-card bg-white p-4 p-md-5 rounded shadow-sm" style="max-width: 500px; z-index: 10; width: 100%;">
 
     <h2 class="text-center mb-4" style="color: var(--primary-color);">Schoolizer Login</h2>
 
-    <form action="process-login.php" method="POST">
+    <form action="dashboard.php" method="POST">
 
       <!-- Role Selection -->
       <div class="mb-3 role-select">

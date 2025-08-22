@@ -28,9 +28,9 @@
       <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
         <h5 class="fw-bold text-primary">Contact Info</h5>
         <ul class="list-unstyled small">
-          <li><i class="bi bi-geo-alt-fill me-2"></i>123 Main Street, Dhaka, Bangladesh</li>
-          <li><i class="bi bi-envelope-fill me-2"></i>info@schoolizer.com</li>
-          <li><i class="bi bi-telephone-fill me-2"></i>+880 1234 567890</li>
+          <li><i class="text-white bi bi-geo-alt-fill me-2"></i>123 Main Street, Dhaka, Bangladesh</li>
+          <li><i class="text-white bi bi-envelope-fill me-2"></i>info@schoolizer.com</li>
+          <li><i class="text-white bi bi-telephone-fill me-2"></i>+880 1234 567890</li>
         </ul>
       </div>
 
